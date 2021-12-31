@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
 		$nip = $_POST['nip'];
 		$password = $_POST['password'];
 
-		$koneksi = mysqli_connect("localhost", "root", "", "db_tidyid");
+		$koneksi = mysqli_connect("localhost", "tidy_id", "password", "newtidy");
 
 		$query = mysqli_query($koneksi, "SELECT * FROM petugas WHERE password='$password' AND nip='$nip'");
 		$row = mysqli_num_rows($query);

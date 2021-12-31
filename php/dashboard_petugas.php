@@ -86,28 +86,28 @@ require 'kalkulator_kendaraan.php';
 				?>
 				<h3>Statistik Parkiran Berdasarkan Jenis Lokasi Parkir</h3><br>
 
-				<p style="background-color:  lightgrey; width: 70%; opacity:70%"><b>FTI</b> (Jumlah: <?php echo $jumlah_fti; ?>| <?php echo $prosenfti; ?>%) <div style="height: 20px; width: <?php echo $panjangGrafikfti; ?>%; background-color: red;" title="FTI (Jumlah: <?php echo $jumlah_fti; ?> | <?php echo $prosenfti; ?>%)"></div>
-				</p>	
-
-				<p style="background-color: lightgrey; width: 70%;opacity:70%" ><b>FTSP</b> (Jumlah: <?php echo $jumlah_ftsp; ?>| <?php echo $prosenftsp; ?>%) <div style="height: 20px; width: <?php echo $panjangGrafikftsp; ?>%; background-color: red;" title="FTSP (Jumlah: <?php echo $jumlah_ftsp; ?> | <?php echo $prosenftsp; ?>%)"></div>
+				<p><b>FTI</b> (Jumlah: <?php echo $jumlah_fti; ?>| <?php echo $prosenfti; ?>%) <div style="height: 10px; width: <?php echo $panjangGrafikfti; ?>%; background-color: red;" title="FTI (Jumlah: <?php echo $jumlah_fti; ?> | <?php echo $prosenfti; ?>%)"></div>
 				</p>
 
-				<p style="background-color: lightgrey; width: 70%;opacity:70%" ><b>FIAI</b> (Jumlah: <?php echo $jumlah_fiai; ?>| <?php echo $prosenfiai; ?>%) <div style="height: 20px; width: <?php echo $panjangGrafikfiai; ?>%; background-color: red;" title="FTI (Jumlah: <?php echo $jumlah_fiai; ?> | <?php echo $prosenfiai; ?>%)"></div>
+				<p><b>FTSP</b> (Jumlah: <?php echo $jumlah_ftsp; ?>| <?php echo $prosenftsp; ?>%) <div style="height: 10px; width: <?php echo $panjangGrafikftsp; ?>%; background-color: red;" title="FTSP (Jumlah: <?php echo $jumlah_ftsp; ?> | <?php echo $prosenftsp; ?>%)"></div>
 				</p>
 
-				<p style="background-color: lightgrey; width: 70%;opacity:70%" ><b>FH</b> (Jumlah: <?php echo $jumlah_fh; ?>| <?php echo $prosenfh; ?>%) <div style="height: 20px; width: <?php echo $panjangGrafikfh; ?>%; background-color: red;" title="FH (Jumlah: <?php echo $jumlah_fh; ?> | <?php echo $prosenfh; ?>%)"></div>
+				<p><b>FIAI</b> (Jumlah: <?php echo $jumlah_fiai; ?>| <?php echo $prosenfiai; ?>%) <div style="height: 10px; width: <?php echo $panjangGrafikfiai; ?>%; background-color: red;" title="FTI (Jumlah: <?php echo $jumlah_fiai; ?> | <?php echo $prosenfiai; ?>%)"></div>
 				</p>
 
-				<p style="background-color: lightgrey; width: 70%;opacity:70%" ><b>FE</b> (Jumlah: <?php echo $jumlah_fe; ?>| <?php echo $prosenfe; ?>%) <div style="height:20px; width: <?php echo $panjangGrafikfe; ?>%; background-color: red;" title="FE (Jumlah: <?php echo $jumlah_fei; ?> | <?php echo $prosenfe; ?>%)"></div>
+				<p><b>FH</b> (Jumlah: <?php echo $jumlah_fh; ?>| <?php echo $prosenfh; ?>%) <div style="height: 10px; width: <?php echo $panjangGrafikfh; ?>%; background-color: red;" title="FH (Jumlah: <?php echo $jumlah_fh; ?> | <?php echo $prosenfh; ?>%)"></div>
 				</p>
 
-				<p style="background-color: lightgrey; width: 70%;opacity:70%"  ><b>FPSB</b> (Jumlah: <?php echo $jumlah_fpsb; ?>| <?php echo $prosenfpsb; ?>%) <div style="height:20px; width: <?php echo $panjangGrafikfpsb; ?>%; background-color: red;" title="FPSB (Jumlah: <?php echo $jumlah_fpsb; ?> | <?php echo $prosenfpsb; ?>%)"></div>
+				<p><b>FE</b> (Jumlah: <?php echo $jumlah_fe; ?>| <?php echo $prosenfe; ?>%) <div style="height: 10px; width: <?php echo $panjangGrafikfe; ?>%; background-color: red;" title="FE (Jumlah: <?php echo $jumlah_fei; ?> | <?php echo $prosenfe; ?>%)"></div>
 				</p>
 
-				<p style="background-color: lightgrey; width: 70%;opacity:70%" ><b>FK</b> (Jumlah: <?php echo $jumlah_fk; ?>| <?php echo $prosenfk; ?>%) <div style="height: 20px; width: <?php echo $panjangGrafikfk; ?>%; background-color: red;" title="FK (Jumlah: <?php echo $jumlah_fk; ?> | <?php echo $prosenfk; ?>%)"></div>
+				<p><b>FPSB</b> (Jumlah: <?php echo $jumlah_fpsb; ?>| <?php echo $prosenfpsb; ?>%) <div style="height: 10px; width: <?php echo $panjangGrafikfpsb; ?>%; background-color: red;" title="FPSB (Jumlah: <?php echo $jumlah_fpsb; ?> | <?php echo $prosenfpsb; ?>%)"></div>
 				</p>
 
-				<p style="background-color: lightgrey; width: 70%;opacity:70%" ><b>FMIPA</b> (Jumlah: <?php echo $jumlah_fmipa; ?>| <?php echo $prosenfmipa; ?>%) <div style="height: 20px; width: <?php echo $panjangGrafikmipa; ?>%; background-color: red;" title="FMIPA (Jumlah: <?php echo $jumlah_fmipa; ?> | <?php echo $prosenfmipa; ?>%)"></div>
+				<p><b>FK</b> (Jumlah: <?php echo $jumlah_fk; ?>| <?php echo $prosenfk; ?>%) <div style="height: 10px; width: <?php echo $panjangGrafikfk; ?>%; background-color: red;" title="FK (Jumlah: <?php echo $jumlah_fk; ?> | <?php echo $prosenfk; ?>%)"></div>
+				</p>
+
+				<p><b>FMIPA</b> (Jumlah: <?php echo $jumlah_fmipa; ?>| <?php echo $prosenfmipa; ?>%) <div style="height: 10px; width: <?php echo $panjangGrafikmipa; ?>%; background-color: red;" title="FMIPA (Jumlah: <?php echo $jumlah_fmipa; ?> | <?php echo $prosenfmipa; ?>%)"></div>
 				</p>
 
 			</div>

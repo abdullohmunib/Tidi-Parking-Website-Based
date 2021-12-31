@@ -54,7 +54,7 @@ $tidy_id = query("SELECT * FROM riwayat WHERE nip IS NULL AND nim = $nim");
 
 		<div class="sidebar-kanan">
 			<div class="atas">
-				<p> | Parkir Kendaraan > Lihat data </p>
+				<p> | Parkir Kendaraan > Aksi </p>
 			</div>
 			<div class="tengah">
 				<table style="text-align: center;" border="1">

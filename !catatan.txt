@@ -1,0 +1,15 @@
+silahkan ubah config database di file-file berikut:
+
+/php/conf/koneksi.php
+/php/server/mahasiswalog_serv.php
+/php/server/petugaslog_serv.php
+
+daftar user mahasiswa dan password
+19523103 	| mahasiswa103
+19523115	| mahasiswa115
+19523224	| mahasiswa224
+
+daftar user petugas dan password
+19523103	| pegawai103
+19523115	| pegawai115
+19523224	| pegawai224

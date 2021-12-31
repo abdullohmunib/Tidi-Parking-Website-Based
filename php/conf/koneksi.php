@@ -1,8 +1,8 @@
 <?php 
 
 $namaserver = "localhost";
-$namapengguna = "root";
-$password = "";
+$namapengguna = "tidy_id";
+$password = "password";
 
-$db = "db_tidyid";
+$db = "newtidy";
 $koneksi = mysqli_connect($namaserver, $namapengguna, $password, $db);
