@@ -1,0 +1,151 @@
+	* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.utama{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sidebar-kiri {
+	flex: 25%;
+	height: 100vh;
+	left: 0;
+	background-color: #1b1b1b; 
+}
+div img {
+  width: 80px;
+}
+.sidebar-kiri .text {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 65px;
+	text-align: center;
+	background: #2a2a2a/*1b1b1b*/;
+	letter-spacing: 1px;
+	color: #1abc9c;
+}
+div ul{
+	background: #1b1b1b;
+	height: 100%;
+	width: 100%;
+	list-style: none;
+}
+div ul li {
+	line-height: 60px;
+	border-bottom:  1px solid rgba(255,255,255,0.1);
+}
+div ul li:last-child{
+	border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+div ul li p {
+	position: relative;
+	color: #fff;
+	font-size: 18px;
+	padding-left: 40px;
+	font-weight: 500;
+	width: 100%;
+	background-color:  #1abc9c;
+}
+div ul li a {
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-left: 40px;
+	font-weight: 500;
+	display: block;
+	width: 100%;
+	border-left: 3px solid transparent;
+}
+div ul li a:hover{
+	color: #1abc9c; /*cyan*/
+	background: #1e1e1e;
+	border-left-color: #1abc9c; /*cyan*/
+}
+div ul ul {
+	position: static;
+	/*display: none;*/
+}
+
+div ul ul li{
+	line-height: 42px;
+	border-bottom: none;
+}
+
+div ul ul li a{
+	font-size: 17px;
+	color: #e6e6e6;
+	padding-left: 80px;
+}
+
+.sidebar-kanan{
+  flex: 75%;
+  background-color:#fff;
+  height: 100vh;
+}
+.sidebar-kanan .atas{
+	padding: 21px;
+	width: 100%;
+	background-color: #2a2a2a;
+	border-top: 3px solid #1abc9c;
+	border-bottom: 3px solid #1abc9c;
+	box-sizing: border-box;
+}
+.sidebar-kanan .atas p {
+	color: #1abc9c;
+	font-weight: 400;
+	font-size: 20px;
+
+}
+.sidebar-kanan .tengah {
+	 margin: auto;
+	 width: 80%;
+}
+.sidebar-kanan .tengah h2 {
+	margin-top: 50px;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.sidebar-kanan .tengah .login-form{
+	background-color: rgba(224, 231, 255, 0.5);
+	padding: 20px 0 20px 20px;
+}
+
+.sidebar-kanan .tengah .login-form input, select{
+	height: 40px;
+	margin: 15px;
+}
+
+.sidebar-kanan .tengah .login-form .submit-btn{
+	cursor: pointer;
+	margin: 10px 0 10px 0;
+	width: 40%;
+  	height: 30px;
+	border-radius: 3px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #1abc9c;
+	border: none;
+	font-weight: 500;
+
+}
+
+.sidebar-kanan .tengah .login-form .submit-btn:hover{
+	opacity: 0.8;
+}
+
+/*Responsif Query*/
+@media (max-width: 786px) {
+  .utama {
+    flex-direction: column;
+  }
+}
